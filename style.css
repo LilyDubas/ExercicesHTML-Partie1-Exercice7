@@ -1,0 +1,23 @@
+.identité
+{
+  background:#337aff;
+  padding: 5%;
+}
+.livraison
+{
+  background:#9325fb;
+  padding: 5%;
+  margin-top: 5%;
+}
+.règlement
+{
+  background:#fc10b5;
+  padding: 5%;
+  margin-top: 5%;
+
+}
+textarea
+{
+width: 60%;
+height: 50px;
+}

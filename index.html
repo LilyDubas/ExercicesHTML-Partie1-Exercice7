@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="style.css"/>
+  <title>Formulaire</title>
+</head>
+<body>
+  <div class="identité">
+    <p>Votre identité</p>
+    <ol>
+      <li>Votre nom:
+        <label for="nom">
+	       <input id="nom" type="text" />
+        </label>
+      </li>
+      <li>Votre prénom:
+        <label for="prénom">
+	       <input id="prénom" type="text" />
+        </label>
+      </li>
+      <li>Adresse mail:
+        <label for="mai">
+	       <input id="mail" type="text" />
+        </label>
+      </li>
+    </ol>
+</div>
+<div class="livraison">
+  <p>Adresse de livraison</p>
+  <ol>
+    <li>Adresse:
+      <label for="adresse">
+       <textarea name="adresse" id="adresse"></textarea>
+      </label>
+    </li>
+    <li>Code postal
+      <label for="code_postal">
+       <input id="code_postal" type="text" />
+      </label>
+    </li>
+    <li>Ville
+      <label for="ville">
+       <input id="ville" type="text" />
+      </label>
+    </li>
+  </ol>
+</div>
+<div class="règlement">
+  <p>Informations de règlement</p>
+  <ol>
+    <li>Type de carte bancaire:</br>
+<input type="radio" name="Visa" id="Visa" /> <label for="Visa">Visa</label></br>
+<input type="radio" name="Mastercard" id="Mastercard" /> <label for="Mastercard">Mastercard</label>
+    </li>
+    <li>Numéro de carte
+      <label for="carte">
+       <input id="carte" type="text" />
+      </label>
+    </li>
+    <li>Code de sécurité
+      <label for="code_sécurité">
+       <input id="code_sécurité" type="text" />
+      </label>
+    </li>
+    <li>Nom du titulaire
+      <label for="titulaire">
+       <input id="titulaire" type="text" />
+      </label>
+    </li>
+  </ol>
+</div>
+<input type="button" value="J'achète!" />
+</body>
